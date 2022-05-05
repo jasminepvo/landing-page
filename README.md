@@ -12,3 +12,5 @@ Sources used:
 imagecolorpicker.com
 
 Images credits:
+www.pexels.com/angela-roma
+www.pexels.com/collections/acupuncture-cupping-s9hzm37/
