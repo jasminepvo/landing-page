@@ -1,82 +1,154 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&family=Roboto:wght@100;400;900&display=swap');
 
-* {
+body {
     font-family: 'Roboto', 'Quicksand', sans-serif;
+    background-color: white;
+    color:#3d3e3f;
+    margin: 0px;
 }
 
-header {
-    font-family: 'Quicksand', sans-serif;
+/* Header section space-between separates left and right */
+.header {
     background-color: #3d3e3f;
     color: white;
     display: flex;
     justify-content: space-between;
-    margin: 0;
-    padding: 0;
+    padding: 10px 50px;
 }
 
-.right {
+/* chain class selectors */
+.left, .right {
     display: flex;
-    flex-direction: row ;
+    align-items: center;
+    gap: 15px;
 }
 
-body {
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
 
+/* this removes the line under our links */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* this removes the bullet point and flex allows them to be on the same row*/
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* About Section */
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    display: flex;
+    background-color:#3d3e3f;
+    color: #adafaf;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.about-cta {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+    align-items: flex-start;
+}
+
+.about-header {
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.about-description {
+    padding-bottom: 15px;
+}
+
+.about button {
+    background-color: #777878;
+    color: white;
+    border: white;
+    border-radius: 8px;
+    width: auto;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Services Section */
+
+.services-container {
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: #3d3e3f;
+    padding-top: 20px;
 }
 
 .services {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: calc(100/4);
-    padding 10px 40px;
-    margin: 10px 40px;
-}
-
-.text {
-    max-width: 100px;
-    display: flex;
-    padding-top: 5px;
-    align-items: center;
-}
-/*
-.services > img {
-    width: 100%;
-    height: 100%;
-    max-width: 40px;
-    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    object-fit: contain;
+    border: 1px white;
 }
-*/
-.container {
+
+.services img {
+    border: 4px solid #3d3e3f;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 5px 20px 0px 20px;
+}
+
+/* Testimonials Section */
+
+.testimonial-container {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    background-color:#e9e9e9;
 }
 
-.service > img {
-    border: #3d3e3f;
-    width: 100px;
-    height: 100px;
-}
-
-.reviews {
-    background-color: #e9e9e9;
+.testimonial {
     color: #3d3e3f;
     margin: 0px;
-    padding: 50px 150px;
+    padding: 0px 150px;
     font-weight: lighter;
 }
 
-.person {
-    text-align: right;
+.testimonial-container p {
+    text-align: center;
     font-weight: bold;
 }
 
-.contact {
+/* Contact Section */
+
+.contact-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 75px;
     font-size: small;
     font-weight: light;
@@ -85,20 +157,24 @@ body {
     margin: 20px 90px;
 }
 
+.contact-button button {
+    background-color: white
+    border: white;
+    border-radius: 8px;
+    width: auto;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    text-align: center; 
+}
+
+/* Footer */
+
 footer {
     background-color: #3d3e3f;
     color: white;
     font-size: x-small;
     padding: 20px;
     text-align: center;
-}
-
-.about {
-    background-color: #3d3e3f;
-    color: white;
-}
-
-ul {
-    text-decoration: none;
-    list-style: none;
 }
