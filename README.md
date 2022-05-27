@@ -1,4 +1,4 @@
-# Web Development Landing Page - [LIVE]([url](https://jasminepvo.github.io/landing-page/))
+# Web Development Landing Page - [LIVE](https://jasminepvo.github.io/landing-page/)
 Inspired by The Odin Project
 
 ##### Colors inspired by Air Jordan 1 Mid 'Light Smoke Grey'
