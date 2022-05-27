@@ -1,16 +1,17 @@
-# landing-page - [LIVE]([url](https://jasminepvo.github.io/landing-page/))
+# Web Development Landing Page - [LIVE]([url](https://jasminepvo.github.io/landing-page/))
+Inspired by The Odin Project
 
-Colors inspired by Air Jordan 1 Mid 'Light Smoke Grey'
-light grey    - #adafaf
-blackish      - #3d3e3f (background color)
-dark grey     - #777878
-light grey2   - #a0a3a3
-light grey3   - #949393
-white         - #ffffff (text color)
+##### Colors inspired by Air Jordan 1 Mid 'Light Smoke Grey'
+* light grey    - #adafaf
+* blackish      - #3d3e3f (background color)
+* dark grey     - #777878
+* light grey2   - #a0a3a3
+* light grey3   - #949393
+* white         - #ffffff (text color)
 
-Sources used:
-imagecolorpicker.com
+##### Sources used:
+* imagecolorpicker.com
 
-Images credits:
-www.pexels.com/angela-roma
-www.pexels.com/collections/acupuncture-cupping-s9hzm37/
+##### Images credits:
+* www.pexels.com/angela-roma
+* www.pexels.com/collections/acupuncture-cupping-s9hzm37/
