@@ -1,4 +1,4 @@
-# landing-page - https://jasminepvo.github.io/landing-page/
+# landing-page - [LIVE]([url](https://jasminepvo.github.io/landing-page/))
 
 Colors inspired by Air Jordan 1 Mid 'Light Smoke Grey'
 light grey    - #adafaf
